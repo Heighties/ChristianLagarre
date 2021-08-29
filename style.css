@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap");
+
+body {
+  font-family: "Advent Pro", sans-serif;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ********************NAVBAR*******************/
+nav {
+  overflow: hidden;
+  background-color: blanchedalmond;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  float: left;
+}
+/* *********************IMAGE******************/
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/Christian\ Lagarre.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 850px;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: right;
+  color: grey;
+  font-size: 3.9em;
+  margin-top: 610px;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* ********************PRESENTATION****************** */
+
+#presentation {
+  background-color: blanchedalmond;
+  padding: 10px 0px 100px 0;
+}
+#textIntro {
+  color: black;
+  padding: 0px 20%;
+  /* text-align: center; */
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#video {
+  text-align: center;
+}
+
+/* ****************************FOOTER*********************** */
+
+footer {
+  background-color: #524a3a;
+  color: #fffae1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input,
+textarea,
+button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: "Advent Pro", sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #fffae1;
+}
+button:hover {
+  background-color: #e55039;
+  color: #fffae1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #fffae1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #fffae1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #fffae1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
