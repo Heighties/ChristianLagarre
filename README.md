@@ -1,4 +1,4 @@
-# ChristianLagarre
+# Christian Lagarre
 
 Premier projet HTML/CSS :
 
